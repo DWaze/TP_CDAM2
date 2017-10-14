@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TP_CDAM</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="new_here_sign_up">New here? Sign up</string>
+    <string name="app_icon">app icon</string>
+    <string name="email_icon">email icon</string>
+    <string name="lock_icon">lock icon</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="recovering_account">Recovering Account</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="confirm">Confirm</string>
+    <string name="eneter_your_email_address_and_then_n_click_the_confirm_button">Eneter Your Email Address and then   click the confirm button</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="digits_check">We have sent you a 4 digits verification \n code enter them in the displayed Area \n and hit Confirm</string>
+    <string name="digits_check_2">We have sent an email containing a \n new password use it to login and then change your password \n through your profile section</string>
+    <string name="digits_check_error">Invalid verification code</string>
+</resources>
