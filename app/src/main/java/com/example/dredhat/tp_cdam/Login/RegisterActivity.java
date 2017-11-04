@@ -1,8 +1,8 @@
-package com.example.dredhat.tp_cdam;
+package com.example.dredhat.tp_cdam.Login;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -11,6 +11,8 @@ import android.widget.Toast;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
+import com.example.dredhat.tp_cdam.R;
+import com.example.dredhat.tp_cdam.RestaurantActivity;
 import com.mobsandgeeks.saripaar.ValidationError;
 import com.mobsandgeeks.saripaar.Validator;
 import com.mobsandgeeks.saripaar.annotation.Email;
@@ -79,9 +81,10 @@ public class RegisterActivity extends AppCompatActivity implements Validator.Val
                 .content("Please wait ...")
                 .progress(true, 0)
                 .show();
-//        Intent intent = new Intent(this,MainActivity.class);
-//        startActivity(intent);
-//        m.dismiss();
+        Intent intent = new Intent(this,RestaurantActivity.class);
+        startActivity(intent);
+        m.dismiss();
+        finish();
     }
 
     @Override

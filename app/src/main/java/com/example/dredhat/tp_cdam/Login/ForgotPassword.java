@@ -1,7 +1,7 @@
-package com.example.dredhat.tp_cdam;
+package com.example.dredhat.tp_cdam.Login;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -10,10 +10,10 @@ import android.widget.Toast;
 
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
+import com.example.dredhat.tp_cdam.R;
 import com.mobsandgeeks.saripaar.ValidationError;
 import com.mobsandgeeks.saripaar.Validator;
 import com.mobsandgeeks.saripaar.annotation.Email;
-import com.mobsandgeeks.saripaar.annotation.Password;
 
 import java.util.List;
 
@@ -45,6 +45,10 @@ public class ForgotPassword extends AppCompatActivity implements Validator.Valid
 
         final Validator validator = new Validator(this);
         validator.setValidationListener(this);
+        YoYo.with(Techniques.FadeOut)
+                .duration(10)
+                .playOn(findViewById(R.id.digitInput));
+
 
         btnConfirm.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,6 +75,9 @@ public class ForgotPassword extends AppCompatActivity implements Validator.Valid
         verificationStep = 2;
         hints.setText(R.string.digits_check);
         digitsConfirm.setClickable(true);
+        YoYo.with(Techniques.FadeIn)
+                .duration(1000)
+                .playOn(findViewById(R.id.digitInput));
     }
 
     @Override

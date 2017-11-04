@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="@drawable/background"
-    >
-<ScrollView
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
     android:isScrollContainer="false">
+
 <android.support.constraint.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context="com.example.dredhat.tp_cdam.RegisterActivity">
+    tools:context="com.example.dredhat.tp_cdam.Login.RegisterActivity">
 
     <ImageView
         android:id="@+id/LogoResto"
@@ -76,7 +72,8 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:hint="@string/email"
-                    android:inputType="textEmailAddress" />
+                    android:inputType="textEmailAddress"
+                    android:text="mail@mail.com"/>
             </android.support.design.widget.TextInputLayout>
 
         </LinearLayout>
@@ -107,7 +104,8 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:hint="@string/password"
-                    android:inputType="textPassword" />
+                    android:inputType="textPassword"
+                    android:text="REDHeaea--*-/06516"/>
 
             </android.support.design.widget.TextInputLayout>
         </LinearLayout>
@@ -171,4 +169,3 @@
 
 </android.support.constraint.ConstraintLayout>
 </ScrollView>
-</LinearLayout>

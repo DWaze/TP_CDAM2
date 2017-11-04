@@ -12,6 +12,9 @@
     <string name="create_account">CREATE ACCOUNT</string>
     <string name="title_activity_maps">Map</string>
     <string name="recovering_account">Recovering Account</string>
+    <string name="firstTitle">Restaurant</string>
+    <string name="secondTitle">Map</string>
+    <string name="thirdTitle">Settings</string>
     <string name="enter_your_email_address">Enter your email address</string>
     <string name="confirm">Confirm</string>
     <string name="eneter_your_email_address_and_then_n_click_the_confirm_button">Eneter Your Email Address and then   click the confirm button</string>
@@ -19,4 +22,6 @@
     <string name="digits_check">We have sent you a 4 digits verification \n code enter them in the displayed Area \n and hit Confirm</string>
     <string name="digits_check_2">We have sent an email containing a \n new password use it to login and then change your password \n through your profile section</string>
     <string name="digits_check_error">Invalid verification code</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_restaurant">RestaurantActivity</string>
 </resources>

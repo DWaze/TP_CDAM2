@@ -15,7 +15,7 @@
 <android.support.constraint.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context="com.example.dredhat.tp_cdam.RegisterActivity"
+    tools:context="com.example.dredhat.tp_cdam.Login.RegisterActivity"
     tools:layout_editor_absoluteY="0dp"
     tools:layout_editor_absoluteX="0dp">
 
